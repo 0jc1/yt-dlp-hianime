@@ -10,7 +10,18 @@ You can view [Plugin Installation Guide](https://github.com/yt-dlp/yt-dlp?tab=re
 
 ## Usage
 
-This plugin will be invoked automatically when it detects compatible url.
+This plugin will be invoked automatically when it detects compatible url. 
+
+The basic syntax is `yt-dlp [URL]`.
+
+### Subbed (Japanese Audio) with English Subtitles
+```
+yt-dlp -f sub_1080p --write-subs --sub-lang en --convert-subs srt [URL]
+```
+### Dubbed (English Audio) with English Subtitles
+```
+yt-dlp -f dub_1080p --write-subs --sub-lang en --convert-subs srt [URL]
+```
 
 ## Requirements
 
