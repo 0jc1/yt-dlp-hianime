@@ -9,9 +9,12 @@ python -m pip install -U https://github.com/pratikpatel8982/yt-dlp-hianime/archi
 You can view [Plugin Installation Guide](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installing-plugins)
 
 ## Usage
+This plugin will be invoked automatically when it detects compatible url. Downloads are dubbed by default.
 
-This plugin will be invoked automatically when it detects compatible url.
-
+### List formats
+```
+yt-dlp -F [URL]
+```
 ### Subbed (Japanese Audio) with English Subtitles
 ```
 yt-dlp -f sub_1080p --write-subs --sub-lang en --convert-subs srt [URL]
