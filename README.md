@@ -9,9 +9,9 @@ python -m pip install -U https://github.com/pratikpatel8982/yt-dlp-hianime/archi
 You can view [Plugin Installation Guide](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installing-plugins)
 
 ## Usage
-This plugin will be invoked automatically when it detects compatible url. Downloads are dubbed by default.
+This plugin will be invoked automatically when it detects compatible url.
 
-### List formats
+### List all formats
 ```
 yt-dlp -F [URL]
 ```
