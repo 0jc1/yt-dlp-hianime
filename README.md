@@ -12,7 +12,7 @@ You can view [Plugin Installation Guide](https://github.com/yt-dlp/yt-dlp?tab=re
 
 This plugin will be invoked automatically when it detects compatible url. 
 
-The basic syntax is `yt-dlp [URL]`.
+The basic syntax is `yt-dlp [URL]`
 
 ### Subbed (Japanese Audio) with English Subtitles
 ```
