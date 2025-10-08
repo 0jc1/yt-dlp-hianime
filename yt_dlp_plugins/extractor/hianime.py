@@ -224,7 +224,7 @@ class HiAnimeIE(InfoExtractor):
                     })
         return {
             'id': episode_id,
-            'title': episode_data['title'],
+            'title': f"{episode_data['title']} (Ep. {episode_data['number']})",
             'formats': formats,
             'subtitles': subtitles,
             'series': anime_title,
@@ -275,4 +275,5 @@ class HiAnimeIE(InfoExtractor):
             \s*>
             (?P<content>.*?)
             </{tag}>
+
         ''', html))
