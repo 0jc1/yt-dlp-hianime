@@ -21,7 +21,7 @@ yt-dlp -f sub_1080p --write-subs --sub-lang en --convert-subs srt [URL]
 ```
 ### Dubbed (English Audio) with English Subtitles
 ```
-yt-dlp -f dub_1080p --write-subs --sub-lang en --convert-subs srt [URL]
+yt-dlp -f b[format_id*=dub] --write-subs --sub-lang en --convert-subs srt [URL]
 ```
 
 ## Requirements
