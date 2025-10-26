@@ -17,7 +17,7 @@ yt-dlp -F [URL]
 ```
 ### Subbed (Japanese Audio) with English Subtitles
 ```
-yt-dlp -f b[format_id*=sub] --write-subs --sub-lang en --convert-subs srt [URL]
+yt-dlp -S "res:720" -f b[format_id*=sub] --write-subs --sub-lang en --convert-subs srt [URL]
 ```
 ### Dubbed (English Audio) with English Subtitles
 ```
